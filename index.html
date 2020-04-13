@@ -1,25 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Canvas Line Work</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>example.com</title>
+    <style type="text/css">
+        html,
+        body {
+            height: 100%;
+        }
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        body {
+            background-color: #fff;
+            background: radial-gradient(circle at center, #fff 0%, #f8f8f8 75%, #ebebeb 100%);
+            color: #222;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-size: 1rem;
+            line-height: 1.5;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
+        main {
+            padding: 1rem;
+            text-align: center;
+        }
 
-    <link rel="stylesheet" href="css/style.css">
+        h1 {
+            font-size: 2.5rem;
+            line-height: 1.1;
+            margin: 0;
+        }
 
+        @media screen and (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
 
+        h1::after {
+            content: "";
+            background-color: #ffe800;
+            background: repeating-linear-gradient(45deg, #ffe800, #ffe800 0.5rem, #222 0.5rem, #222 1.0rem);
+            display: block;
+            height: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        p {
+            margin: 1rem 0 0 0;
+        }
+    </style>
 </head>
 
 <body>
-    <div id="large-header" class="large-header"><canvas id="demo-canvas" width="1894" height="1035"></canvas>
-    </div>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
-
-    <script src="js/index.js"></script>
-
+    <main>
+        <h1>example.com</h1>
+        <p>Our website is under construction.</p>
+    </main>
 </body>
 
 </html>
